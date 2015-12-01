@@ -3,6 +3,22 @@
   "private": true,
   "dependencies": {
     "bootstrap": "~3.3.5",
-    "jquery": "~2.1.4"
+    "jquery": "~2.1.4",
+    "css-toggle-switch": "~4.0.1"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/*.**",
+        "dist/fonts/*.*",
+        "dist/js/bootstrap{.js,.min.js}"
+      ]
+    },
+    "jquery": {
+      "main": "dist/*.**"
+    },
+    "css-toggle-switch": {
+      "main": "dist/*.**"
+    }
   }
 }
